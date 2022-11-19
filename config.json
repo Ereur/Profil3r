@@ -6,14 +6,7 @@
         "Underscore": "_"
     },
     "report_elements": [
-        "domain",
-        "email",
-        "dailymotion",
-        "github",
-        "facebook",
-        "instagram",
-        "pinterest",
-        "twitter"
+        "email"
     ],
     "json_report_path": "./reports/json/{}.json",
     "html_report_path": "./reports/html/{}.html",
@@ -33,9 +26,8 @@
         "email": {
             "rate_limit": 1500,
             "domains": [
-                "gmail.com",
-                "yahoo.com",
-                "hotmail.com"
+                "Hotmail.de",
+                "arcor.de"
             ],
             "format": "{permutation}@{domain}",
             "type": "email",
